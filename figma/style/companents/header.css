@@ -1,0 +1,74 @@
+.header__inner{
+    
+    display: flex;
+    justify-content: space-between;
+    width: 1260px;
+height: 800px;
+}
+.header{
+    
+    position: relative;
+
+background: #FFFFFF;   
+}
+.header__logo{
+    display: flex;
+    position: absolute;
+    width: 1260px;
+    height: 50px;
+    left: 330px;
+    top: 50px;
+}
+.logo__img{
+    width: 50px;
+    height: 49.99px;
+}
+.header__logo h3{
+    margin-left: 14px;
+height: 17px;
+left: 64px;
+top: 17px;
+color: #236967;
+}
+.header__menu{
+    position: relative;
+    display: flex;
+height: 26px;
+    width: 131px;
+    left: 588px;
+    top: 65px;
+}
+.menu__list{
+    font-family: 'Raleway', sans-serif;
+margin-left: 62px;
+list-style: none;
+border:0px;
+/* outline:0px; */
+}
+.header__icon{
+  
+}
+.icon__list{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 27px;
+    
+    position: absolute;
+    width: 257px;
+    height: 44px;
+    left: 928px;
+    top: 40px;
+   list-style: none;
+}
+.icon__item{
+    width: 44px;
+height: 44px; 
+margin-left: 22.33px;
+}
+.icon__item1{
+    width: 44px;
+height: 44px; 
+margin-left: 23.57px;
+}
