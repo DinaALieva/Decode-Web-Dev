@@ -1,16 +1,15 @@
-.header__inner{
-    
+.header__container{
+    position: relative;
     display: flex;
-    justify-content: space-between;
-    width: 1260px;
 height: 50px;
 align-items: center;
 }
 .header{
- position: absolute;  
- left: 330px;
- top: 50px;
- z-index: 50px;
+ position: absolute; 
+ width: 100%; 
+ left: 0px;
+ top: 0px;
+ z-index: 50;
 
 }
 .header__logo{
@@ -48,27 +47,24 @@ border:0px;
 padding: 5px 0px;
 }
 .header__icon{
-      
+    
+      /* margin-left: 890px; */
 }
 .icon__list{  
+ width: 500px;
    display: flex;
     flex-wrap: wrap;
     padding: 0px;
     list-style: none;
-    margin-left: 230px;   
+    margin-left: 430px;   
 }
 .icon__item{
     width: 44px;
 height: 44px; 
-margin-left: 22px;
-}
-.icon__item{
-    width: 44px;
-height: 44px; 
-margin-left: 23.57px;
+margin-left: 30px;
 }
 .icon__item:last-child {
-    margin: 0 0 0 28px;
+    margin: 0 0 0 38px;
 }
 @media (max-width:890px) {  
     .icon__list{
