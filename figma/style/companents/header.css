@@ -3,21 +3,20 @@
     display: flex;
     justify-content: space-between;
     width: 1260px;
-height: 800px;
+height: 50px;
+align-items: center;
 }
 .header{
-    
-    position: relative;
+ position: absolute;  
+ left: 330px;
+ top: 50px;
+ z-index: 50px;
 
-background: #FFFFFF;   
 }
 .header__logo{
     display: flex;
     position: absolute;
-    width: 1260px;
-    height: 50px;
-    left: 330px;
-    top: 50px;
+    
 }
 .logo__img{
     width: 50px;
@@ -33,42 +32,57 @@ color: #236967;
 .header__menu{
     position: relative;
     display: flex;
-height: 26px;
+/* height: 26px; */
     width: 131px;
-    left: 588px;
-    top: 65px;
+    margin-left: 270px;
+    /* top: 65px; */
 }
 .menu__list{
     font-family: 'Raleway', sans-serif;
-margin-left: 62px;
+margin-left: 20px;
 list-style: none;
 border:0px;
 /* outline:0px; */
 }
-.header__icon{
-  
+.icon {
+padding: 5px 0px;
 }
-.icon__list{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+.header__icon{
+      
+}
+.icon__list{  
+   display: flex;
+    flex-wrap: wrap;
     padding: 0px;
-    gap: 27px;
-    
-    position: absolute;
-    width: 257px;
-    height: 44px;
-    left: 928px;
-    top: 40px;
-   list-style: none;
+    list-style: none;
+    margin-left: 230px;   
 }
 .icon__item{
     width: 44px;
 height: 44px; 
-margin-left: 22.33px;
+margin-left: 22px;
 }
-.icon__item1{
+.icon__item{
     width: 44px;
 height: 44px; 
 margin-left: 23.57px;
 }
+.icon__item:last-child {
+    margin: 0 0 0 28px;
+}
+@media (max-width:890px) {  
+    .icon__list{
+        margin: 0px 0px 0 130px;
+    }
+}
+@media (max-width:590px) {  
+    .icon__list{
+        margin: 0px 0px 0px 80px;
+    }
+}
+@media (max-width:370px) {  
+    .icon__item{
+        font-size: 18px;
+    }
+}
+
