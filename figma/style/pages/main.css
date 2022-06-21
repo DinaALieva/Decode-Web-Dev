@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet"');
-
+html,
 .body {
-    margin: 0px;
-    padding: 0px;
+    width: 1920px;
+    min-height: 100%;
+    line-height: 1;
     font-family: 'Raleway', sans-serif;
-    /* max-width: 1920px; */
-    position: relative;
+ 
 }
 .h1, h2, h3, h4, h5 {
 
@@ -23,19 +23,21 @@ margin: 0px;
 list-style: none;
  }
  .wrapper {
-display: flex;
-flex-direction: column;
-height: 100vh;
-/* overflow: hidden; */
+min-height: 100%;
+overflow: hidden;
  }
+ 
  .content{
-flex: 1 1 auto;
-width: 1920px;
-height: 800px;
+max-width: 1260px;
+margin: 0px auto;
+height: 100%;
  }
  .container {
-
-padding: 0 15px;
-margin: 0 auto;
-box-sizing: content-box;
+    position: relative;
+max-width: 1260px;
+height: 4200px;
+margin: 50px auto;
+ }
+ .main{
+ flex: 1 1 auto;
  }
